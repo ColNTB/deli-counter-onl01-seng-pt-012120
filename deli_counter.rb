@@ -6,7 +6,7 @@ def line(array)
       i = 1 
       result = "The line is currently: "
       array.each do |name|
-        result << "#{i}. #{name}"
+        result << "#{i}. #{name} "
         i+=1
       end 
       puts  result 
@@ -14,7 +14,6 @@ def line(array)
       
   
 end 
-=begin
 def take_a_number(array, person)
       i = 1 
       array.each do |name|
@@ -30,4 +29,4 @@ def now_serving(array)
       puts " l"
     end 
 end 
-=end 
+
