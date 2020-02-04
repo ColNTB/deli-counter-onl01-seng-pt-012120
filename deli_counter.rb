@@ -20,7 +20,7 @@ def line(array)
 end 
 def take_a_number(array, person)
       i = array.size+1 
-      puts "Welcome, #{person}. You are number #{i} in line"
+      puts "Welcome, #{person}. You are number #{i} in line."
       array << person 
 end 
 
@@ -28,7 +28,8 @@ def now_serving(array)
     if array.size == 0 
       puts "There is nobody waiting to be served!"
     else 
-      puts " l"
+      puts "Currently serving #{array[0]}"
+      
     end 
 end 
 
