@@ -10,6 +10,7 @@ def line(array)
            result << "#{i}. #{name} "
         else 
           result << "#{i}. #{name}"
+        end 
         i+=1
       end 
       puts  result 
