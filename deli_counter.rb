@@ -19,10 +19,9 @@ def line(array)
   
 end 
 def take_a_number(array, person)
-      i = 1 
-      array.each do |name|
-        puts "Welcome, #{name}. You are number #{i} in line"
-        i+=1
+      i = array.size+1 
+      puts "Welcome, #{person}. You are number #{i} in line"
+      
       end 
 end 
 
