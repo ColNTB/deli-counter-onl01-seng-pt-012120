@@ -5,7 +5,7 @@ def line(array)
     else 
       puts "The line is currently: "
       array.each do |name|
-        puts "#{name}"
+        puts "bob"
     end 
       
   
