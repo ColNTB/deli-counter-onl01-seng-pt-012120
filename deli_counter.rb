@@ -22,7 +22,6 @@ def now_serving(array)
       puts "There is nobody waiting to be served!"
     else 
       puts " l"
-      array.drop(1)
     end 
 end 
 
