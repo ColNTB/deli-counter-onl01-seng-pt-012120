@@ -4,8 +4,9 @@ def line(array)
        puts "The line is currently empty."
     else 
       puts "The line is currently: "
+      counter = 1 
       array.each do |name|
-        puts "bob"
+        puts "#{i}. #{name}"
       end 
     end 
       
