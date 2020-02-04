@@ -6,7 +6,10 @@ def line(array)
       i = 1 
       result = "The line is currently: "
       array.each do |name|
-        result << "#{i}. #{name} "
+        if i < array.size 
+           result << "#{i}. #{name} "
+        else 
+          result << "#{i}. #{name}"
         i+=1
       end 
       puts  result 
