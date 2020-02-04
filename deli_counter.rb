@@ -3,12 +3,13 @@ def line(array)
     if array.size<1 
        puts "The line is currently empty."
     else 
-      puts "The line is currently: "
       i = 1 
+      result = "The line is currently: "
       array.each do |name|
-        puts "#{i}. #{name}"
+        result << "#{i}. #{name}"
         i+=1
       end 
+      puts  result 
     end 
       
   
