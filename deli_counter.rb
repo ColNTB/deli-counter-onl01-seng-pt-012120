@@ -7,6 +7,7 @@ def line(array)
     array.each do |name|
       puts "The line is currently: #{i}. #{name}"
       i+=1 
+  end 
 end 
 def take_a_number(array, person)
       i = 1 
@@ -22,6 +23,7 @@ def now_serving(array)
     else 
       puts "#{array[0]}"
       array.drop(1)
+    end 
 end 
 
   
