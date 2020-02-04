@@ -9,6 +9,7 @@ def line(array)
       i+=1 
   end 
 end 
+=begin
 def take_a_number(array, person)
       i = 1 
       array.each do |name|
@@ -24,5 +25,4 @@ def now_serving(array)
       puts " l"
     end 
 end 
-
-  
+=end 
