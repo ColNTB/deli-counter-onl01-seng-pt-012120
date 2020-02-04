@@ -21,7 +21,7 @@ def now_serving(array)
     if array.size == 0 
       puts "There is nobody waiting to be served!"
     else 
-      puts "#{array[0]}"
+      puts " l"
       array.drop(1)
     end 
 end 
