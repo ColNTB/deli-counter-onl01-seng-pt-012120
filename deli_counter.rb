@@ -1,13 +1,7 @@
 # Write your code here.
 def line(array)
-  if array.size == 0 
     puts "The line is currently empty."
-  else 
-    i = 1; 
-    array.each do |name|
-      puts "The line is currently: #{i}. #{name}"
-      i+=1 
-  end 
+
 end 
 =begin
 def take_a_number(array, person)
